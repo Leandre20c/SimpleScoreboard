@@ -1,0 +1,13 @@
+name: SimpleScoreBoard
+version: '1.0-SNAPSHOT'
+main: org.simplescoreboard.SimpleScoreBoard
+api-version: '1.21'
+author: Ouistitiw
+description: A simple plugin to make a simple scoreboard.
+
+
+commands:
+  sb:
+    description: Reload the SimpleScoreBoard config
+    usage: /<command> reload
+    permission: simplescoreboard.admin

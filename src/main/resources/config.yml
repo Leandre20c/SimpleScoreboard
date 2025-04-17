@@ -1,0 +1,27 @@
+﻿# Intervalle de mise à jour du scoreboard (en secondes)
+update-interval: 5
+
+# Scoreboards par monde. Le scoreboard "default" est utilisé si aucun spécifique n'est défini.
+scoreboards:
+  default:
+    title: "&a&lSimpleBoard"
+    lines:
+      - "&7Nom: &f%player_name%"
+      - "&7Monde: &e%player_world%"
+      - "&7Kills: &c%statistic_player_kills%"
+      - "&7Argent: &a%vault_eco_balance% ⛃"
+      - "&7Serveur: &6play.mymc.fr"
+
+  world_nether:
+    title: "&c&lBienvenue en enfer"
+    lines:
+      - "&7Nom: &f%player_name%"
+      - "&7Monde: &4%player_world%"
+      - "&7Blocs parcourus: &f%statistic_walk_one_cm%"
+
+  world_the_end:
+    title: "&5&lL’End t’attend"
+    lines:
+      - "&7Nom: &f%player_name%"
+      - "&7Dragon tué : &d%statistic_ender_dragon_killed%"
+      - "&7Score : &f%scoreboard_score%"
